@@ -1,23 +1,24 @@
 {
 	"tags": [
-		{"label": "Economic Moats"},
-		{"label": "Brand", "parent": "Economic Moats"},
-        {"label": "Intellectual Property", "parent": "Economic Moats"},
-        {"label": "Network Effect", "parent": "Economic Moats"},
-        {"label": "Switching Cost", "parent": "Economic Moats"},
-        {"label": "Scale Advantage", "parent": "Economic Moats"},
-        {"label": "Cost Advantage", "parent": "Economic Moats"},
-
-		{"label": "C"},
-		{"label": "D", "parent": "B"}
+        {"label": "Finance"},
+        {"label": "Business Analysis", "parent": "Finance"},
+		{"label": "Economic Moats", "parent": "Business Analysis"},
+        {"label": "Financial Performance", "parent": "Business Analysis"}
 	],
+
 	"informations": [
-		{"id": "1", "title": "Q1", "tags": ["B", "C"], "type": "question"},
-		{"id": "2", "title": "A2", "type": "answer"},
-		{"id": "2", "title": "Q2", "tags": ["B", "C"], "type": "question"}
+        {"id": "M1", "title": "Brand", "tags": ["Economic Moats"], "type": "question"},
+        {"id": "M2", "title": "Intellectual Property", "tags": ["Economic Moats"], "type": "question"},
+        {"id": "M3", "title": "Network Effect", "tags": ["Economic Moats"], "type": "question"},
+        {"id": "M4", "title": "Switching Cost", "tags": ["Economic Moats"], "type": "question"},
+        {"id": "M5", "title": "Cost Advantage", "tags": ["Economic Moats"], "type": "question"},
+        {"id": "M6", "title": "Economies of Scale Advantage", "tags": ["Economic Moats"], "type": "question"},
+
+        {"id": "F1", "title": "Gross Profit Margin", "tags": ["Financial Performance"], "type": "question"},
+        {"id": "F2", "title": "Operating Profit Margin", "tags": ["Financial Performance"], "type": "question"},
+        {"id": "F3", "title": "Return on Capital Employed", "tags": ["Financial Performance"], "type": "question"},
+        {"id": "F4", "title": "Shares Outstanding", "tags": ["Financial Performance"], "type": "question",
+            "description": "Are the number of Shares Outstanding reducing due to net buyback, despite issuance of ESOP/RSU, so that there's increased value for long term shareholders?"
+        }
 	]
 }
-
-Reducing Outstanding Shares
-
-Increasing ROCE
