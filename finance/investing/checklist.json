@@ -7,17 +7,17 @@
 	],
 
 	"informations": [
-        {"id": "M1", "title": "Brand", "tags": ["Economic Moats"], "type": "question"},
-        {"id": "M2", "title": "Intellectual Property", "tags": ["Economic Moats"], "type": "question"},
-        {"id": "M3", "title": "Network Effect", "tags": ["Economic Moats"], "type": "question"},
-        {"id": "M4", "title": "Switching Cost", "tags": ["Economic Moats"], "type": "question"},
-        {"id": "M5", "title": "Cost Advantage", "tags": ["Economic Moats"], "type": "question"},
-        {"id": "M6", "title": "Economies of Scale Advantage", "tags": ["Economic Moats"], "type": "question"},
+        {"id": "M1", "title": "Brand", "tags": ["Economic Moats"], "type": "question", "level": 1},
+        {"id": "M2", "title": "Intellectual Property", "tags": ["Economic Moats"], "type": "question", "level": 1},
+        {"id": "M3", "title": "Network Effect", "tags": ["Economic Moats"], "type": "question", "level": 1},
+        {"id": "M4", "title": "Switching Cost", "tags": ["Economic Moats"], "type": "question", "level": 1},
+        {"id": "M5", "title": "Cost Advantage", "tags": ["Economic Moats"], "type": "question", "level": 1},
+        {"id": "M6", "title": "Economies of Scale Advantage", "tags": ["Economic Moats"], "type": "question", "level": 1},
 
-        {"id": "F1", "title": "Gross Profit Margin", "tags": ["Financial Performance"], "type": "question"},
+        {"id": "F1", "title": "Gross Profit Margin", "tags": ["Financial Performance"], "type": "question", "level": 1},
         {"id": "F2", "title": "Operating Profit Margin", "tags": ["Financial Performance"], "type": "question"},
-        {"id": "F3", "title": "Return on Capital Employed", "tags": ["Financial Performance"], "type": "question"},
-        {"id": "F4", "title": "Shares Outstanding", "tags": ["Financial Performance"], "type": "question",
+        {"id": "F3", "title": "Return on Capital Employed", "tags": ["Financial Performance"], "type": "question", "level": 1},
+        {"id": "F4", "title": "Shares Outstanding", "tags": ["Financial Performance"], "type": "question", "level": 2,
             "description": "Are the number of Shares Outstanding reducing due to net buyback, despite issuance of ESOP/RSU, so that there's increased value for long term shareholders?"
         }
 	]
