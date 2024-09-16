@@ -19,6 +19,23 @@
         {"id": "F3", "title": "Return on Capital Employed", "tags": ["Financial Performance"], "type": "question", "level": 1},
         {"id": "F4", "title": "Shares Outstanding", "tags": ["Financial Performance"], "type": "question", "level": 2,
             "description": "Are the number of Shares Outstanding reducing due to net buyback, despite issuance of ESOP/RSU, so that there's increased value for long term shareholders?"
-        }
+        },
+
+        {"id": "M1", "title": "Skin in the Game", "tags": ["Management"], "type": "question", "level": 1,
+            "description": "Does the top management or owners of the business have significant shareholding, so that they've vested interest in making good long term decisions for the business?"},
+        {"id": "M1", "title": "Capital Allocation Skills", "tags": ["Management"], "type": "question", "level": 1,
+            "description": "Has the management or owners of the business demonstrated good capital allocation skills, buy acquiring strategically useful assets at the right price? How have such acquisitions helped grow the revenue or profitability of the business"},
+
+        {"id": "M1", "title": "The Story", "tags": ["Basics"], "type": "question", "level": 1,
+            "description": "What is the story around the business? Which factors are expected to help the business grow their revenue or profitability?"},
+
+        {"id": "M1", "title": "Debt Management", "tags": ["Balance Sheet Stength"], "type": "question", "level": 1,
+            "description": "Is the business able to comfortably pay interest payments using its operating profits? How much is the total debt compared to the cash equivalents for the business?"},
+
+        {"id": "M1", "title": "Trade Receivables", "tags": ["Quality of Earnings"], "type": "question", "level": 1,
+            "description": "Is Sales Growth in line with Trade Receivables?"},
+
+        {"id": "M1", "title": "Cash Flow from Operations", "tags": ["Quality of Earnings"], "type": "question", "level": 1,
+            "description": "Is CFO in line with Operating Profit?"}
 	]
 }
