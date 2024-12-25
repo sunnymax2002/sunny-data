@@ -1,0 +1,137 @@
+{
+	"references": [
+		{
+			"title": "TAO: Facebook's distributed data store for the social graph",
+			"url": "https://dl.acm.org/doi/10.5555/2535461.2535468",
+			"publish_yyyymmdd": "2013-06-26",
+			"description": "Distributed Graph Implementation at Facebook for Social Network",
+			"topics":["Graph Applications", "Distributed Computing"]
+		},
+		{
+			"title": "One Glitch to Rule Them All: Fault Injection Attacks Against AMD's Secure Encrypted Virtualization",
+			"url": "https://arxiv.org/abs/2108.04575",
+			"publish_yyyymmdd": "2021-08-26",
+			"description": "Glitch attack to cause the device to accept a wrong GKEY and that compromises further security",
+			"topics":["Hardware Security"]
+		},
+		{
+			"title": "HybridRAG: Integrating Knowledge Graphs and Vector Retrieval Augmented Generation for Efficient Information Extraction",
+			"url": "https://arxiv.org/abs/2408.04948",
+			"publish_yyyymmdd": "2024-08-09",
+			"description": "",
+			"topics":["Generative AI"]
+		},
+		{
+			"title": "Heracles: Improving Resource Efficiency at Scale",
+			"url": "https://research.google.com/pubs/archive/43792.pdf",
+			"publish_yyyymmdd": "2015-06-13",
+			"description": "Scheduling best effort and latency sensitive tasks together on common hardware",
+			"topics":["Task Scheduling"]
+		},
+		{
+			"title": "Two Techniques to Enhance the Performance of Memory Consistency Models",
+			"url": "https://courses.grainger.illinois.edu/CS533/sp2023/reading_list/gharachorloo91two.pdf",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics":["Memory Access"]
+		},
+		{
+			"title": "Asynchronous Circuit Principles and a Survey of Associated Design Tools",
+			"url": "https://jics.org.br/ojs/index.php/JICS/article/view/677",
+			"publish_yyyymmdd": "2022-12-31",
+			"description": "",
+			"topics":["Asynchronous Logic"]
+		},
+		{
+			"title": "MOUSETRAP: High-Speed Transition-Signaling Asynchronous Pipelines",
+			"url": "https://ieeexplore.ieee.org/document/4231890",
+			"publish_yyyymmdd": "2007-06-17",
+			"description": "",
+			"topics":["Asynchronous Logic"]
+		},
+		{
+			"title": "Loihi: A Neuromorphic Manycore Processor with On-Chip Learning",
+			"url": "https://ieeexplore.ieee.org/document/8259423",
+			"publish_yyyymmdd": "2016-01-16",
+			"description": "",
+			"topics":["Asynchronous Logic", "Neuromorphic Computing"]
+		},
+		{
+			"title": "Cache-Oblivious Algorithms and Data Structures",
+			"url": "https://erikdemaine.org/papers/BRICS2002/",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics":["Cache Memory"]
+		},
+		{
+			"title": "Best of Both Worlds: Advantages of Hybrid Graph Sequence Models",
+			"url": "https://arxiv.org/abs/2411.15671",
+			"publish_yyyymmdd": "2024-11-23",
+			"description": "",
+			"topics":["Generative AI"]
+		},
+		{
+			"title": "Distributed Deep Learning Using Synchronous Stochastic Gradient Descent",
+			"url": "https://arxiv.org/abs/1602.06709",
+			"publish_yyyymmdd": "",
+			"description": "Intel Parallel Computing Labs paper explaining memory layout for matrices etc.",
+			"topics": ["Data Layout", "Matrix Multiplication", "Arithmetic Intensity"]
+		},		
+		{
+			"title": "Handling Wikidata Qualifiers in Reasoning",
+			"url": "https://arxiv.org/abs/2304.03375",
+			"publish_yyyymmdd": "",
+			"description": "Reasoning using Many Sorted Logic with WikiData",
+			"topics": ["Knowledge Graph", "Many Sorted Logic", "Machine Reasoning"]
+		},
+		{
+			"title": "Inference New Knowledge Using Sparql Construct Query",
+			"url": "https://ieeexplore.ieee.org/document/8673494",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": ["Knowledge Graph", "Machine Reasoning"]
+		},
+		{
+			"title": "Optimizing Emerging Graph Applications Using Hardware-Software Co-Design",
+			"url": "https://deepblue.lib.umich.edu/handle/2027.42/175618",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": ["Graph Accelerator"]
+		},
+		{
+			"title": "DATA++: An Automated Tool for Intelligent Data Augmentation Using Wikidata",
+			"url": "https://ieeexplore.ieee.org/document/8864152",
+			"publish_yyyymmdd": "2019-10-14",
+			"description": "",
+			"topics": ["Knowledge Graph", "Machine Reasoning"]
+		},
+		{
+			"title": "A Deep Dive into the Underlying Architecture of Groq's LPU",
+			"url": "https://blog.codingconfessions.com/p/groq-lpu-design",
+			"publish_yyyymmdd": "2024-03-01",
+			"description": "Groq's LPU architecture deep dive explaining Vector Streaming Processor",
+			"topics": ["High Performance Computing", "SIMD"]
+		},
+		{
+			"title": "How to use PlantUML with Markdown",
+			"url": "https://gist.github.com/noamtamim/f11982b28602bd7e604c233fbe9d910f",
+			"publish_yyyymmdd": "",
+			"description": "Using PlantUML within Markdown",
+			"topics": ["Markdown", "PlantUML"]
+		},
+		{
+			"title": "Applying the Roofline Model",
+			"url": "https://spiral.ece.cmu.edu/pub-spiral/pubfile/ispass-2013_177.pdf",
+			"publish_yyyymmdd": "",
+			"description": "How to apply roofline model to estimate arithmetic intensity",
+			"topics": ["Arithmetic Intensity"]
+		},
+		{
+			"title": "",
+			"url": "",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": []
+		}
+	]
+}
