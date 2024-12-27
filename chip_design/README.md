@@ -29,3 +29,11 @@ flowchart TD
 ## Architecture Exploration
 
 ## Performance Analysis
+
+## Machine Readable Spec
+
+Single source documentation of spec which is machine readable, and is also used to auto-generate HAS documents / images etc. (spec2diagram, spec2rtl etc.)
+
+## Agile Development
+
+80:20 rule, quick proof of concept, time to market, minimal validation. Define the non-negotiable features, and drive the project with focus only on them, rather than trying to do too many things and making it too complex - instead of prioritizing mask cost, optimize getting something working to the market

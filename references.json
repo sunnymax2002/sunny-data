@@ -127,6 +127,104 @@
 			"topics": ["Arithmetic Intensity"]
 		},
 		{
+			"title": "Getting Started with SystemC: Setup, Code, and Run",
+			"url": "https://medium.com/@techAsthetic/getting-started-with-systemc-setup-code-and-run-baad1943ec4b",
+			"publish_yyyymmdd": "2024-08-04",
+			"description": "Hardware modeling using SystemC",
+			"topics": ["Hardware Modeling", "SystemC"]
+		},
+		{
+			"title": "TLM 2.0 Standard into Action: Designing Efficient Processor Simulators",
+			"url": "https://www.design-reuse.com/articles/26286/tlm-2-0-processor-simulator.html",
+			"publish_yyyymmdd": "",
+			"description": "Processor architecture modeling using TLM 2.0",
+			"topics": ["Hardware Modelling", "SystemC", "Transaction Level Modeling"]
+		},
+		{
+			"title": "ULTRA: Foundation Models for Knowledge Graph Reasoning",
+			"url": "https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/ULTRA-Foundation-Models-for-Knowledge-Graph-Reasoning/post/1548762?wapkw=ULTRA%20knowledge%20graph%20reasoning&cid=iosm&source=linkedin&campid=hq_ao_2024&content=100006590433166&icid=always-on&linkId=100000306320447",
+			"publish_yyyymmdd": "2023-11-29",
+			"description": "",
+			"topics": ["Knowledge Graph", "Machine Reasoning"]
+		},
+		{
+			"title": "Dalorex: A Data-Local Program Execution and Architecture for Memory-bound Applications",
+			"url": "https://arxiv.org/abs/2207.13219",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": ["High Performance Computing", "Graph Accelerator"]
+		},
+		{
+			"title": "SPECIFICATIONS: THE MISSING LINK TO MAKING THE DEVELOPMENT OF LLM SYSTEMS AN ENGINEERING DISCIPLINE",
+			"url": "https://arxiv.org/pdf/2412.05299",
+			"publish_yyyymmdd": "",
+			"description": "Structured approach to developing LLMs",
+			"topics": ["Large Language Models"]
+		},
+		{
+			"title": "Load is not what you should balance: Introducing Prequal",
+			"url": "https://arxiv.org/abs/2312.10172",
+			"publish_yyyymmdd": "2023-12-15",
+			"description": "",
+			"topics": ["Task Scheduling", "Distributed Computing"]
+		},
+		{
+			"title": "Software-Defined Vehicles",
+			"url": "https://blackberry.qnx.com/en/ultimate-guides/software-defined-vehicle",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": ["Software Defined Vehicles"]
+		},
+		{
+			"title": "Spanner: Google's Globally-Distributed Database",
+			"url": "https://research.google/pubs/spanner-googles-globally-distributed-database-2/",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": []
+		},
+		{
+			"title": "Topkima-Former: Low-energy, Low-Latency Inference for Transformers using top-k In-memory ADC",
+			"url": "https://arxiv.org/abs/2411.13050",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": ["Neuromorphic Computing"]
+		},
+		{
+			"title": "A Path Towards Autonomous Machine Intelligence: Exploring Hierachical Predictive Architectures",
+			"url": "https://medium.com/@LawrencewleKnight/a-path-towards-autonomous-machine-intelligence-exploring-hierachical-predictive-architectures-48ba2ca950af",
+			"publish_yyyymmdd": "",
+			"description": "Note on Yann LeCun's paper on alternate approach to machine intelligence",
+			"topics": ["Machine Reasoning"]
+		},
+		{
+			"title": "Roofline model: How does increasing Arithmetic Intensity allow room for improvements to performance?",
+			"url": "https://stackoverflow.com/questions/71368454/roofline-model-how-does-increasing-arithmetic-intensity-allow-room-for-improvem",
+			"publish_yyyymmdd": "",
+			"description": "Discussion on arithmetic intensity",
+			"topics": ["Arithmetic Intensity"]
+		},
+		{
+			"title": "",
+			"url": "",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": []
+		},
+		{
+			"title": "The GAP Benchmark Suite",
+			"url": "http://gap.cs.berkeley.edu/benchmark.html",
+			"publish_yyyymmdd": "2017-05-18",
+			"description": "UC Berkeley Graph Processing Benchmark, identified from Dalorex paper",
+			"topics": ["Graph Applications", "Benchmark"]
+		},
+		{
+			"title": "",
+			"url": "",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": []
+		},
+		{
 			"title": "",
 			"url": "",
 			"publish_yyyymmdd": "",
