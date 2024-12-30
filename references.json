@@ -138,7 +138,7 @@
 			"url": "https://www.design-reuse.com/articles/26286/tlm-2-0-processor-simulator.html",
 			"publish_yyyymmdd": "",
 			"description": "Processor architecture modeling using TLM 2.0",
-			"topics": ["Hardware Modelling", "SystemC", "Transaction Level Modeling"]
+			"topics": ["Hardware Modeling", "SystemC", "Transaction Level Modeling"]
 		},
 		{
 			"title": "ULTRA: Foundation Models for Knowledge Graph Reasoning",
@@ -204,11 +204,11 @@
 			"topics": ["Arithmetic Intensity"]
 		},
 		{
-			"title": "",
-			"url": "",
+			"title": "Open Virtual Platform",
+			"url": "https://github.com/OVPworld/Information",
 			"publish_yyyymmdd": "",
 			"description": "",
-			"topics": []
+			"topics": ["Hardware Modeling"]
 		},
 		{
 			"title": "The GAP Benchmark Suite",
@@ -216,6 +216,48 @@
 			"publish_yyyymmdd": "2017-05-18",
 			"description": "UC Berkeley Graph Processing Benchmark, identified from Dalorex paper",
 			"topics": ["Graph Applications", "Benchmark"]
+		},
+		{
+			"title": "RISC-V Virtual Platform",
+			"url": "https://github.com/agra-uni-bremen/riscv-vp",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": ["Hardware Modeling", "RISC-V"]
+		},
+		{
+			"title": "XLS: Accelerated HW Synthesis",
+			"url": "https://github.com/google/xls",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": ["Hardware Synthesis"]
+		},
+		{
+			"title": "",
+			"url": "",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": []
+		},
+		{
+			"title": "",
+			"url": "",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": []
+		},
+		{
+			"title": "",
+			"url": "",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": []
+		},
+		{
+			"title": "",
+			"url": "",
+			"publish_yyyymmdd": "",
+			"description": "",
+			"topics": []
 		},
 		{
 			"title": "",

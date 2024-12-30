@@ -26,6 +26,12 @@ flowchart TD
 
 ### Traceability
 
+ * Baseline features and their documents, design + val as graph nodes
+
+ * Delta features and their nodes
+
+Change management, feature prioritization and traceability
+
 ## Architecture Exploration
 
 ## Performance Analysis
