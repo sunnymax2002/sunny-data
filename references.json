@@ -232,18 +232,18 @@
 			"topics": ["Hardware Synthesis"]
 		},
 		{
-			"title": "",
-			"url": "",
+			"title": "Transaction Level Modeling: An Overview",
+			"url": "https://www.cecs.uci.edu/conference_proceedings/isss_2003/cai_transaction.pdf",
 			"publish_yyyymmdd": "",
-			"description": "",
-			"topics": []
+			"description": "UC Irvine 2003 paper on TLM",
+			"topics": ["Hardware Modeling"]
 		},
 		{
-			"title": "",
-			"url": "",
+			"title": "The Definitive Guide to SystemC: TLM-2.0 and the IEEE 1666-2011 Standard",
+			"url": "https://newport.eecs.uci.edu/~doemer/w20_eecs222/Lecture17_SystemC_Part3.pdf",
 			"publish_yyyymmdd": "",
 			"description": "",
-			"topics": []
+			"topics": ["Hardware Modeling"]
 		},
 		{
 			"title": "",

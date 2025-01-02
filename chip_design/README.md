@@ -34,6 +34,8 @@ Change management, feature prioritization and traceability
 
 ## Architecture Exploration
 
+High Level Arch Spec (SystemC, TLM) and auto-synthesize RTL post arch val
+
 ## Performance Analysis
 
 ## Machine Readable Spec
