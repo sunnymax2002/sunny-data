@@ -246,9 +246,9 @@
 			"topics": ["Hardware Modeling"]
 		},
 		{
-			"title": "",
-			"url": "",
-			"publish_yyyymmdd": "",
+			"title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+			"url": "https://arxiv.org/abs/2501.12948",
+			"publish_yyyymmdd": "2025-01-22",
 			"description": "",
 			"topics": []
 		},
