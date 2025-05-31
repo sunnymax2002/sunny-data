@@ -10,18 +10,31 @@
 # The YAML formal must specify entities and relationships, based on model schema in sunny-tools\critical-thinking\model.py
 # Each checklist question must have a unique tag, which is used to link the question with the answer (and other entities related to a question).
 entities:
-- id: kpit-q-M1
+- id: domain-ba
+  type: Domain
+  label: Business Analysis
+  metadata:
+    tags:
+      - ba
+- id: ba-q-M1
   type: Question
   label: Q1
   metadata:
     tags:
       - ba-M1
+  related_to:
+    - target_id: domain-ba
+      type: member_of
+
 - id: kpit-q-M1-a
   type: Answer
   label: A1
   metadata:
     tags:
       - ba-M1
+  related_to:
+    - target_id: ba-q-M1
+      type: supports
 
 # informations:
 #   - id: M1
