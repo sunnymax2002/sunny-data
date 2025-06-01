@@ -18,17 +18,206 @@ entities:
     - target_id: domain-ba
       type: member_of     
 
+# Business Metrics #
+
+- id: ba-metric
+  type: Metric
+  label: Business Metrics
+  metadata:
+    tags:
+      - ba-metric
+  related_to:
+    - target_id: domain-ba-checklist
+      type: member_of
+
+# Business Quality #
+- id: ba-topic-bq
+  type: Subtopic
+  label: Business Quality
+  metadata:
+    tags:
+      - ba-topic-bq
+  related_to:
+    - target_id: domain-ba-checklist
+      type: member_of
+
+- id: ba-bq-q:Q1
+  type: Question
+  label: Circle of Competence
+  content: Does the business operate within your circle of competence, meaning you understand its industry, products, and competitive landscape?
+  metadata:
+    tags:
+      - ba-bq-Q1
+  related_to:
+    - target_id: ba-topic-bq
+      type: member_of
+
+- id: ba-bq-q:Q2
+  type: Question
+  label: Business Model
+  content: Does the business have a clear and sustainable business model that generates consistent revenue and profits? Is there a consistency track record for past 5 or more years?
+  metadata:
+    tags:
+      - ba-bq-Q2
+  related_to:
+    - target_id: ba-topic-bq
+      type: member_of
+
+- id: ba-bq-q:Q3
+  type: Question
+  label: Niche Focus
+  content: Does the business operate in a niche area? Such businesses often face less competition and can maintain higher margins. This may also provide insulation from government policies such as taxes and tarrifs (the niche product or service is very important for customer, and his behaviour won't change much due to taxes)
+  metadata:
+    tags:
+      - ba-bq-Q3
+  related_to:
+    - target_id: ba-topic-bq
+      type: member_of
+
+- id: ba-bq-q:Q4
+  type: Question
+  label: Competitive Landscape
+  content: Does the business have a clear understanding of its competitive landscape, including its main competitors and their strengths and weaknesses?
+  metadata:
+    tags:
+      - ba-bq-Q4
+  related_to:
+    - target_id: ba-topic-bq
+      type: member_of
+
+- id: ba-bq-q:Q5
+  type: Question
+  label: Industry Trends
+  content: Is the business operating in an industry with favorable long-term trends, such as growth in demand or technological advancements?
+  metadata:
+    tags:
+      - ba-bq-Q5
+  related_to:
+    - target_id: ba-topic-bq
+      type: member_of
+
+- id: ba-bq-q:Q6
+  type: Question
+  label: Value Chain
+  content: Is the business one of the strongest players in the overall value chain of product/service, e.g., semiconductor and foundries earn the highest gross margin in entire value chain of electonic products
+  metadata:
+    tags:
+      - ba-bq-Q6
+  related_to:
+    - target_id: ba-topic-bq
+      type: member_of
+
+- id: ba-bq-q:Q7
+  type: Question
+  label: Reinvestment Opportunities
+  content: Does the business have ample opportunities to reinvest its profits at high rates of return, indicating a strong growth potential? A great business needs incrementally lesser capital to grow the revenue, and is also able to grow the operating profits
+  metadata:
+    tags:
+      - ba-bq-Q7
+  related_to:
+    - target_id: ba-topic-bq
+      type: member_of
+
+- id: ba-bq-q:Q8
+  type: Question
+  label: Customer Loyalty
+  content: Does the business have a loyal customer base that provides recurring revenue and reduces customer acquisition costs? Does this provide the business a meaningful pricing power?
+  metadata:
+    tags:
+      - ba-bq-Q8
+  related_to:
+    - target_id: ba-topic-bq
+      type: member_of
+
+- id: ba-bq-q:Q9
+  type: Question
+  label: Unknown Business
+  content: Is the business relatively unknown to the general public, which may indicate a hidden gem with significant growth potential? This is often the case with small cap stocks, or companies that are not in the limelight of media and analysts
+  metadata:
+    tags:
+      - ba-bq-Q9
+  related_to:
+    - target_id: ba-topic-bq
+      type: member_of
+
+# Risk Analysis #
+
+- id: ba-topic-ra
+  type: Subtopic
+  label: Risk Analysis
+  metadata:
+    tags:
+      - ba-topic-ra
+  related_to:
+    - target_id: domain-ba-checklist
+      type: member_of
+
+- id: ba-ra-q:R1
+  type: Question
+  label: Business Risks
+  content: Does the business face significant risks that could impact its operations, such as economic downturns, technological disruptions, or regulatory changes?
+  metadata:
+    tags:
+      - ba-ra-R1
+  related_to:
+    - target_id: ba-topic-ra
+      type: member_of
+
+- id: ba-ra-q:R2
+  type: Question
+  label: Management Risks
+  content: Does the business have a history of management issues, such as poor decision-making, lack of transparency, or conflicts of interest?
+  metadata:
+    tags:
+      - ba-ra-R2
+  related_to:
+    - target_id: ba-topic-ra
+      type: member_of
+
+- id: ba-ra-q:R3
+  type: Question
+  label: Financial Risks
+  content: Does the business have a history of financial instability, such as high debt levels, inconsistent cash flow, or poor financial reporting?
+  metadata:
+    tags:
+      - ba-ra-R3
+  related_to:
+    - target_id: ba-topic-ra
+      type: member_of
+
+- id: ba-ra-q:R4
+  type: Question
+  label: Market Risks
+  content: Does the business operate in a volatile market, where prices can fluctuate significantly due to external factors such as commodity prices, currency exchange rates, or geopolitical events?
+  metadata:
+    tags:
+      - ba-ra-R4
+  related_to:
+    - target_id: ba-topic-ra
+      type: member_of
+
+- id: ba-ra-q:R5
+  type: Question
+  label: Competitive Risks
+  content: Does the business face significant competitive risks, such as new entrants to the market, changes in consumer preferences, or disruptive technologies?
+  metadata:
+    tags:
+      - ba-ra-R5
+  related_to:
+    - target_id: ba-topic-ra
+      type: member_of
+
 # Economic Moats #
 
 - id: ba-topic-em
-  type: Topic
+  type: Subtopic
   label: Economic Moats
   metadata:
     tags:
       - ba
   related_to:
     - target_id: domain-ba-checklist
-      type: member_of      
+      type: member_of
 
 - id: ba-em-q:M1
   type: Question
@@ -85,10 +274,32 @@ entities:
     - target_id: ba-topic-em
       type: member_of
 
+- id: ba-em-q:M6
+  type: Question
+  label: Market Share
+  content: Does the business have a significant market share in its industry, providing it with pricing power and competitive advantages? If this is not the case, could the moats it appears to possess be transient or son become irrelevant?
+  metadata:
+    tags:
+      - ba-em-M6
+  related_to:
+    - target_id: ba-topic-em
+      type: member_of
+
+- id: ba-em-q:M7
+  type: Question
+  label: Real IP Moat
+  content: Does R&D spend justify the moat & its sustainablity due to IP / patents, or its only an early mover advantage and competition can easily catch up?
+  metadata:
+    tags:
+      - ba-em-M7
+  related_to:
+    - target_id: ba-topic-em
+      type: member_of
+
 # Financial Performance #
 
 - id: ba-topic-fp
-  type: Topic
+  type: Subtopic
   label: Financial Performance
   metadata:
     tags:
@@ -132,19 +343,90 @@ entities:
 
 - id: ba-fp-q:F4
   type: Question
-  label: Shares Outstanding
-  content: Are the number of shares outstanding reducing due to net buyback, despite issuance of ESOP/RSU, so that there's increased value for long term shareholders?
+  label: Balance Sheet Strength
+  content: Does the business have a strong balance sheet with low debt levels and sufficient liquidity to weather economic downturns? Check if cash more than borrowings, and what is the trend in interest cost (quick ratio)
   metadata:
     tags:
       - ba-fp-F4
   related_to:
     - target_id: ba-topic-fp
       type: member_of
+      
+- id: ba-fp-q:F5
+  type: Question
+  label: Revenue Growth
+  content: Does the business demonstrate consistent revenue growth over time, indicating a strong demand for its products or services?
+  metadata:
+    tags:
+      - ba-fp-F5
+  related_to:
+    - target_id: ba-topic-fp
+      type: member_of
+
+# Quality of Earnings #
+
+- id: ba-topic-qe
+  type: Subtopic
+  label: Quality of Earnings
+  metadata:
+    tags:
+      - ba-topic-qe
+  related_to:
+    - target_id: domain-ba-checklist
+      type: member_of
+
+- id: ba-qe-q:E1
+  type: Question
+  label: Shares Outstanding
+  content: Are the number of shares outstanding reducing due to net buyback, despite issuance of ESOP/RSU, so that there's increased value for long term shareholders?
+  metadata:
+    tags:
+      - ba-qe-E1
+  related_to:
+    - target_id: ba-topic-qe
+      type: member_of
+
+- id: ba-qe-q:E2
+  type: Question
+  label: Cash Flow Generation
+  content: Does the business generate consistent and strong cash flow from its operations, providing a solid foundation for growth and shareholder returns?
+  metadata:
+    tags:
+      - ba-qe-E2
+  related_to:
+    - target_id: ba-topic-qe
+      type: member_of
+
+- id: ba-qe-q:E3
+  type: Question
+  label: Trade Receiables and Inventory
+  content: Does the business maintain a healthy balance between trade receivables and inventory, ensuring that it does not overextend credit or hold excessive stock? Are the receivables growing faster than revenue, which could indicate potential issues?
+  metadata:
+    tags:
+      - ba-qe-E3
+  related_to:
+    - target_id: ba-topic-qe
+      type: member_of
+
+# TODO: Add ratios to questions
+
+- id: ba-qe-q:E4
+  type: Question
+  label: Revenye Recognition
+  content: Does the business use conservative revenue recognition practices, and avoids artifically inflating the earnings?
+  metadata:
+    tags:
+      - ba-qe-E4
+  related_to:
+    - target_id: ba-topic-qe
+      type: member_of
+
+# TODO: Add other questions related to quality of earnings (Financial Shenanigans Book), such as those related to accounting practices, non-recurring items, and management's guidance on future earnings.
 
 # Management Analysis #
 
 - id: ba-topic-mg
-  type: Topic
+  type: Subtopic
   label: Management Analysis
   metadata:
     tags:
@@ -156,7 +438,7 @@ entities:
 - id: ba-mg-q:M1
   type: Question
   label: Skin in the Game
-  content: Does the top management or owners of the business have significant shareholding, so that they've vested interest in making good long term decisions for the business?
+  content: Does the top management or owners of the business have significant shareholding (and insiders often buy when stock prices are low), so that they've vested interest in making good long term decisions for the business?
   metadata:
     tags:
       - ba-mg-M1
@@ -167,7 +449,7 @@ entities:
 - id: ba-mg-q:M2  
   type: Question
   label: Capital Allocation Skills
-  content: Has the management or owners of the business demonstrated good capital allocation skills, by acquiring strategically useful assets at the right price?
+  content: Has the management or owners of the business demonstrated good capital allocation skills, by acquiring strategically useful assets at the right price? Has the management avoided diworsification into unrelated areas? Study how the installed capacity has been utilized in the past, and whether management is making careful choices of capacity expansion, and not flowing along the wind (just because others are doing, due to a short term spike in demand)
   metadata:
     tags:
       - ba-mg-M2
@@ -175,99 +457,24 @@ entities:
     - target_id: ba-topic-mg
       type: member_of
 
-# - id: kpit-q-M1-a
-#   type: Answer
-#   label: A1
-#   metadata:
-#     tags:
-#       - ba-M1
-#   related_to:
-#     - target_id: ba-q-M1
-#       type: supports
+- id: ba-mg-q:M3
+  type: Question
+  label: Transparency
+  content: Does the management or owners of the business maintain a high level of transparency in their operations, financial reporting, and communication with shareholders?
+  metadata:
+    tags:
+      - ba-mg-M3
+  related_to:
+    - target_id: ba-topic-mg
+      type: member_of
 
-# informations:
-#   - id: M1
-#     title: Brand
-#     tags:
-#       - Economic Moats
-#     type: question
-#     level: 1
-
-#   - id: M2
-#     title: Intellectual Property
-#     tags:
-#       - Economic Moats
-#     type: question
-#     level: 1
-
-#   - id: M3
-#     title: Network Effect
-#     tags:
-#       - Economic Moats
-#     type: question
-#     level: 1
-
-#   - id: M4
-#     title: Switching Cost
-#     tags:
-#       - Economic Moats
-#     type: question
-#     level: 1
-
-#   - id: M5
-#     title: Cost Advantage
-#     tags:
-#       - Economic Moats
-#     type: question
-#     level: 1
-
-#   - id: M6
-#     title: Economies of Scale Advantage
-#     tags:
-#       - Economic Moats
-#     type: question
-#     level: 1
-
-#   - id: F1
-#     title: Gross Profit Margin
-#     tags:
-#       - Financial Performance
-#     type: question
-#     level: 1
-
-#   - id: F2
-#     title: Operating Profit Margin
-#     tags:
-#       - Financial Performance
-#     type: question
-
-#   - id: F3
-#     title: Return on Capital Employed
-#     tags:
-#       - Financial Performance
-#     type: question
-#     level: 1
-
-#   - id: F4
-#     title: Shares Outstanding
-#     tags:
-#       - Financial Performance
-#     type: question
-#     level: 2
-#     description: Are the number of Shares Outstanding reducing due to net buyback, despite issuance of ESOP/RSU, so that there's increased value for long term shareholders?
-
-#   - id: M1
-#     title: Skin in the Game
-#     tags:
-#       - Management
-#     type: question
-#     level: 1
-#     description: Does the top management or owners of the business have significant shareholding, so that they've vested interest in making good long term decisions for the business?
-
-#   - id: M1
-#     title: Capital Allocation Skills
-#     tags:
-#       - Management
-#     type: question
-#     level: 1
-#     description: Has the management or owners of the business demonstrated good capital allocation skills, buy acquiring strategically useful assets at t
+- id: ba-mg-q:M4
+  type: Question
+  label: Track Record
+  content: Does the management or owners of the business have a strong track record of under commitment (future guidance) and over delivering results, such as consistent revenue growth, profitability, and shareholder returns?
+  metadata:
+    tags:
+      - ba-mg-M4
+  related_to:
+    - target_id: ba-topic-mg
+      type: member_of
