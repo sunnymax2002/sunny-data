@@ -1,12 +1,3 @@
-# tags:
-#   - label: Finance
-#   - label: Business Analysis
-#     parent: Finance
-#   - label: Economic Moats
-#     parent: Business Analysis
-#   - label: Financial Performance
-#     parent: Business Analysis
-
 # The YAML formal must specify entities and relationships, based on model schema in sunny-tools\critical-thinking\model.py
 # Each checklist question must have a unique tag, which is used to link the question with the answer (and other entities related to a question).
 entities:
@@ -15,26 +6,184 @@ entities:
   label: Business Analysis
   metadata:
     tags:
-      - ba
-- id: ba-q-M1
-  type: Question
-  label: Q1
+      - domain-ba
+
+- id: domain-ba-checklist
+  type: Topic
+  label: Business Analysis Checklist
   metadata:
     tags:
-      - ba-M1
+      - ba-checklist
   related_to:
     - target_id: domain-ba
-      type: member_of
+      type: member_of     
 
-- id: kpit-q-M1-a
-  type: Answer
-  label: A1
+# Economic Moats #
+
+- id: ba-topic-em
+  type: Topic
+  label: Economic Moats
   metadata:
     tags:
-      - ba-M1
+      - ba
   related_to:
-    - target_id: ba-q-M1
-      type: supports
+    - target_id: domain-ba-checklist
+      type: member_of      
+
+- id: ba-em-q:M1
+  type: Question
+  label: Intangible Assets
+  content: Does the business have strong intangible assets like brand, patents, or proprietary technology that provide a competitive advantage?
+  metadata:
+    tags:
+      - ba-em-M1
+  related_to:
+    - target_id: ba-topic-em
+      type: member_of
+
+- id: ba-em-q:M2
+  type: Question
+  label: Network Effect
+  content: Does the business benefit from a network effect, where the value of its product or service increases as more people use it?
+  metadata:
+    tags:
+      - ba-em-M2
+  related_to:
+    - target_id: ba-topic-em
+      type: member_of
+
+- id: ba-em-q:M3
+  type: Question
+  label: Switching Costs
+  content: Does the business create high switching costs for its customers, making it difficult for them to change to a competitor?
+  metadata:
+    tags:
+      - ba-em-M3
+  related_to:
+    - target_id: ba-topic-em
+      type: member_of
+
+- id: ba-em-q:M4
+  type: Question
+  label: Cost Advantage
+  content: Does the business have a cost advantage over its competitors, allowing it to offer lower prices or higher margins?
+  metadata:
+    tags:
+      - ba-em-M4
+  related_to:
+    - target_id: ba-topic-em
+      type: member_of
+
+- id: ba-em-q:M5
+  type: Question
+  label: Economies of Scale
+  content: Does the business benefit from economies of scale, where its cost per unit decreases as production increases?
+  metadata:
+    tags:
+      - ba-em-M5
+  related_to:
+    - target_id: ba-topic-em
+      type: member_of
+
+# Financial Performance #
+
+- id: ba-topic-fp
+  type: Topic
+  label: Financial Performance
+  metadata:
+    tags:
+      - ba-topic-fp
+  related_to:
+    - target_id: domain-ba-checklist
+      type: member_of
+
+- id: ba-fp-q:F1
+  type: Question
+  label: Gross Profit Margin
+  content: Does the business maintain a high gross profit margin, indicating strong pricing power and cost control?
+  metadata:
+    tags:
+      - ba-fp-F1
+  related_to:
+    - target_id: ba-topic-fp
+      type: member_of
+
+- id: ba-fp-q:F2
+  type: Question
+  label: Operating Profit Margin
+  content: Does the business have a healthy operating profit margin, reflecting efficient operations and cost management?
+  metadata:
+    tags:
+      - ba-fp-F2
+  related_to:
+    - target_id: ba-topic-fp
+      type: member_of
+
+- id: ba-fp-q:F3
+  type: Question
+  label: Return on Capital Employed
+  content: Does the business achieve a high return on capital employed, indicating effective use of its resources?
+  metadata:
+    tags:
+      - ba-fp-F3
+  related_to:
+    - target_id: ba-topic-fp
+      type: member_of
+
+- id: ba-fp-q:F4
+  type: Question
+  label: Shares Outstanding
+  content: Are the number of shares outstanding reducing due to net buyback, despite issuance of ESOP/RSU, so that there's increased value for long term shareholders?
+  metadata:
+    tags:
+      - ba-fp-F4
+  related_to:
+    - target_id: ba-topic-fp
+      type: member_of
+
+# Management Analysis #
+
+- id: ba-topic-mg
+  type: Topic
+  label: Management Analysis
+  metadata:
+    tags:
+      - ba-topic-mg
+  related_to:
+    - target_id: domain-ba-checklist
+      type: member_of
+
+- id: ba-mg-q:M1
+  type: Question
+  label: Skin in the Game
+  content: Does the top management or owners of the business have significant shareholding, so that they've vested interest in making good long term decisions for the business?
+  metadata:
+    tags:
+      - ba-mg-M1
+  related_to:
+    - target_id: ba-topic-mg
+      type: member_of
+
+- id: ba-mg-q:M2  
+  type: Question
+  label: Capital Allocation Skills
+  content: Has the management or owners of the business demonstrated good capital allocation skills, by acquiring strategically useful assets at the right price?
+  metadata:
+    tags:
+      - ba-mg-M2
+  related_to:
+    - target_id: ba-topic-mg
+      type: member_of
+
+# - id: kpit-q-M1-a
+#   type: Answer
+#   label: A1
+#   metadata:
+#     tags:
+#       - ba-M1
+#   related_to:
+#     - target_id: ba-q-M1
+#       type: supports
 
 # informations:
 #   - id: M1

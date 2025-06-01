@@ -1,0 +1,20 @@
+entities:
+- id: kpit
+  type: Subject
+  label: KPIT
+  metadata:
+    tags:
+      - ba-kpit
+  related_to:
+    - target_id: domain-ba
+      type: connects_to
+
+- id: ba-kpit-a-M1
+  type: Answer
+  label: A1
+  metadata:
+    tags:
+      - ba-em-M1
+  related_to:
+    - target_id: kpit
+      type: supports
