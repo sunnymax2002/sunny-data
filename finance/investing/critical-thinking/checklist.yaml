@@ -31,6 +31,7 @@ entities:
       type: member_of
 
 # Business Quality #
+
 - id: ba-topic-bq
   type: Subtopic
   label: Business Quality

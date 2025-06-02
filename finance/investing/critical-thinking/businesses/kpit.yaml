@@ -18,3 +18,5 @@ entities:
   related_to:
     - target_id: kpit
       type: supports
+  
+# Instead of duplicating content such as label for answer to a question, we can use the label from the question. This can be doneby capturing answers in a CSV with tag of question and content of the answer
